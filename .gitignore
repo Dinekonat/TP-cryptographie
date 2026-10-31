@@ -1,0 +1,26 @@
+# Secrets: ne jamais publier de cles privees
+*.key
+*.pem.key
+*_private*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Fichiers temporaires et systeme
+~$*.docx
+.DS_Store
+Thumbs.db
+
+# Etats locaux OpenSSL / PKI (bases, numeros et sauvegardes)
+**/index.txt*
+**/serial*
+**/crlnumber*
+**/newcerts/
+**/*_backup_*.crt
+**/*_backup_*.key
+**/*_new.key
+**/*_new.csr
